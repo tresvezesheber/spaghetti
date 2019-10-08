@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #231f1c;
+  font-family: Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+  padding: 60px 10px;
+  max-width: 1170px;
+  margin: 0 auto;
+  border-bottom: 3px solid #332f2e;
+  border-radius: 0.1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+header span {
+  color: #9bca00;
+}
+
+header a {
+  color: #9bca00;
+  border: 1px solid #332f2e;
+  border-radius: 0.1em;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+/* Intro */
+.intro {
+  padding: 60px 10px;
+  max-width: 1170px;
+  margin: 0 auto;
+  border-bottom: 3px solid #332f2e;
+  border-radius: 0.1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro h1 {
+  color: #9bca00;
+  font-size: 4.6em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  color: #fff;
+  font-size: 1.25em;
+  line-height: 1.6;
+}
+
+/* Passos */
+
+.passos {
+  padding: 60px 0;
+  max-width: 1170px;
+  margin: 0 auto;
+  border-bottom: 3px solid #332f2e;
+  border-radius: 0.1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.passos-item {
+  flex: 1;
+  margin: 10px;
+}
+
+.passos-item h2 {
+    color: #9bca00;
+    font-size: 4.6em;
+}
+
+.passos-item .sub-title {
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.passos-item .text {
+    color: rgba(255, 255, 255, .5);
+    font-size: 1.125em;
+}
+
+ /* Avisos */
